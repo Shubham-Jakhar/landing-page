@@ -7,7 +7,6 @@ import { ArrowRight } from "lucide-react"
 export function CTASection() {
   return (
     <section id="contact" className="py-20 bg-gradient-to-r from-purple-600 to-blue-600 relative overflow-hidden">
-      {/* Background decoration */}
       <div className="absolute inset-0">
         <div className="absolute top-0 left-1/4 w-64 h-64 bg-white/10 rounded-full blur-3xl" />
         <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-white/10 rounded-full blur-3xl" />

@@ -46,8 +46,6 @@ export function WhyChooseUsSection() {
           {features.map((feature, index) => (
             <ScrollAnimation key={index} delay={index * 100}>
               <div className="relative overflow-hidden text-center group p-6 rounded-2xl bg-gray-50 dark:bg-gray-800 border-2 border-transparent hover:border-purple-500 dark:hover:border-purple-400 hover:bg-white dark:hover:bg-gray-800 transition-all duration-300">
-
-                {/* ⭐ Starry Dots */}
                 <div className="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                   <span className="star star-1" />
                   <span className="star star-2" />
@@ -56,16 +54,12 @@ export function WhyChooseUsSection() {
                   <span className="star star-5" />
                   <span className="star star-6" />
                 </div>
-
-                {/* Icon */}
                 <div className="relative z-10 w-16 h-16 rounded-full bg-gradient-to-r from-purple-600 to-blue-600 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-blue-500/30 transition-all duration-300">
                   <feature.icon className="h-8 w-8 text-white" />
                 </div>
-
                 <h3 className="relative z-10 text-xl font-semibold text-gray-900 dark:text-white mb-2">
                   {feature.title}
                 </h3>
-
                 <p className="relative z-10 text-gray-600 dark:text-gray-400">
                   {feature.description}
                 </p>

@@ -11,7 +11,6 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollAnimation>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-            {/* Company Info */}
             <div>
               <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent mb-4">
                 Sammunat
@@ -29,8 +28,6 @@ export function Footer() {
                 ))}
               </div>
             </div>
-
-            {/* Services */}
             <div>
               <h4 className="text-white font-semibold mb-4">Services</h4>
               <ul className="space-y-2">
@@ -48,8 +45,6 @@ export function Footer() {
                 )}
               </ul>
             </div>
-
-            {/* Quick Links */}
             <div>
               <h4 className="text-white font-semibold mb-4">Quick Links</h4>
               <ul className="space-y-2">
@@ -62,8 +57,6 @@ export function Footer() {
                 ))}
               </ul>
             </div>
-
-            {/* Contact Info */}
             <div>
               <h4 className="text-white font-semibold mb-4">Contact</h4>
               <ul className="space-y-3">
