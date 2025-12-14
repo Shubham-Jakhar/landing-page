@@ -1,0 +1,21 @@
+import { Header } from "@/components/Header"
+import { HeroSection } from "@/components/Hero-section"
+import { AboutSection } from "@/components/about-section"
+import { ServicesSection } from "@/components/services-section"
+import { WhyChooseUsSection } from "@/components/why-choose-us-section"
+import { CTASection } from "@/components/cta-section"
+import { Footer } from "@/components/footer"
+
+export default function Home() {
+  return (
+    <main className="min-h-screen">
+      <Header />
+      <HeroSection />
+      <AboutSection />
+      <ServicesSection />
+      <WhyChooseUsSection />
+      <CTASection />
+      <Footer />
+    </main>
+  )
+}
